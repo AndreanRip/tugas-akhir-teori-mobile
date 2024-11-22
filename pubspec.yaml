@@ -1,0 +1,30 @@
+name: tugas_akhir_124220071
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqlite3_flutter_libs: ^0.5.3
+  sqflite: ^2.3.1
+  path: ^1.8.2
+  crypto: ^3.0.2
+  http: ^1.2.2
+  intl: ^0.18.0
+  awesome_notifications: ^0.8.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/image/eleanor.png
+    - assets/image/eleanor_horror.png
